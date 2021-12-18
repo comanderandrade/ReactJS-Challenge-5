@@ -1,0 +1,43 @@
+.posts {
+  max-width: 720px;  
+
+  a {
+    display: block;
+    
+    & + a {
+      margin-top: 1rem;
+      padding-top: 1rem;
+    }
+
+    strong {
+      font-size: 1.6rem;      
+      font-style: normal;
+      line-height: 34px;
+      letter-spacing: -0.5px;
+      transition: color .2s;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      line-height: 22px;      
+      color: var(--primary-color);
+    }
+        
+    &:hover strong {
+      color: var(--Highlight);
+    }
+  }
+}
+
+.loadMoreBtn {
+  background-color: transparent;
+  color: var(--Highlight);
+  border: none;
+  margin: 2rem 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+  outline: none;
+}

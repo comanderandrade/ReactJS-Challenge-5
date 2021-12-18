@@ -1,0 +1,31 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.postInfo {
+  display: flex;
+  margin-top: 1rem;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.94rem;
+
+    color: var(--secondary-color);
+    & + div {
+      margin-left: 1rem;
+    }
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+}

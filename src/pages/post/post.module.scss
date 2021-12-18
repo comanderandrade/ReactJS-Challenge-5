@@ -1,0 +1,74 @@
+.post {
+  .bannerContainer {
+    width: 100%;
+    height: 400px;
+    margin: 0 0 1rem 0;
+  
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .postWasEdited {
+      font-size: 0.9rem;
+      color: var(--secondary-color);
+      margin-top: 1rem;
+    }
+    .postContent {
+      margin: 3rem 0;
+
+      article {
+    
+        strong {
+          margin: 1rem 0;
+          font-size: 2.5rem;          
+        }
+    
+        p {
+          color: var(--primary-color);
+          margin-top: 1.5rem;
+          text-align: justify;
+        }
+    
+        ul {
+          color: var(--primary-color);
+          margin-top: 1.5rem;
+          text-align: justify;
+        }
+      }
+    }
+
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    border-top: 1px solid var(--secondary-color);
+    padding: 2rem 0;
+
+    .action {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      font-size: .95rem;
+
+      a {
+        color: var(--Highlight);
+        margin-top: 0.5rem;   
+        font-weight: 700;     
+      }
+
+      &.prevAction {
+        align-items: flex-start;
+      }
+
+      &.nextAction {
+        align-items: flex-end;
+      }
+    }
+  }
+}
